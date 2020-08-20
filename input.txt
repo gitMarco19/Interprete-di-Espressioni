@@ -1,0 +1,30 @@
+(GET (ADD (MUL 14 20) 25))
+
+(SET var (MUL 10 5))
+
+(SET var (MUL 10 (ADD 5 4)))
+
+(GET (DIV 1000 var))
+
+(GET (ADD (MUL 14 20) 25))
+
+(SET tmp (ADD 10 (SUB 7 1)))
+
+(SET var (MUL 10 tmp))
+
+(GET (DIV 1000 var))
+
+(SET var(MUL 10 20))
+
+(GET (DIV 1000 tmp))
+
+(SET count -80)
+
+(GET (DIV (ADD 1 count) 2))
+
+(GET (SUB (ADD (MUL 10 10) 12) 5))
+
+(GET (MUL (SUB (ADD (DIV 120 6) 20 ) 5) (MUL (SUB (ADD (DIV 120 6) 20) (SUB (ADD (MUL 10 10) 12) 5) ) 10) ) )
+
+(SET add 4)
+(GET (ADD 2 (SUB (ADD (DIV 120 add) 20 ) 5)))
